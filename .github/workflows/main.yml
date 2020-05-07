@@ -35,7 +35,7 @@ jobs:
         git config --global user.email jcstange@gmail.com
         git config --global user.name jcstange
         git status
-        git remote add origin https://www.github.com/jcstange/metronome.git
+        git remote add origin https://github.com/jcstange/metronome.git
         git checkout -b gh-pages
         git add .
         git commit -m "gh-pages-update"
